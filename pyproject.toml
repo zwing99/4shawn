@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "4shawn"
+version = "0.1.0"
+description = ""
+authors = ["Zac Oler <zac.oler@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+sqlalchemy = "*"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
